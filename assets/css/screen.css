@@ -237,7 +237,7 @@ a:hover {
 
 h1 a, h2 a, h3 a,
 h4 a, h5 a, h6 a {
-    color: #50585D;
+    color: #85E0FF;
 }
 
 
@@ -465,6 +465,24 @@ margin on the iframe, cause it breaks stuff. */
     background-size: cover;
 }
 
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu li {
+    float: left;
+    padding: 2px 5px;
+}
+
+}
 .blog-logo {
     text-decoration: none;
 }
@@ -486,7 +504,7 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     text-shadow: 0 1px 6px rgba(0,0,0,0.1);
-    color:#fff076;
+    color: rgb(111, 131, 158);
 }
 
 .blog-description {
@@ -497,6 +515,7 @@ margin on the iframe, cause it breaks stuff. */
     font-family: 'Noto Serif', serif;
     letter-spacing: 0;
     text-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    color: rgb(111, 131, 158);
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
