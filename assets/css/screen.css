@@ -1221,3 +1221,13 @@ ul.social li {
 ul.social li:last-child {
     margin-right: 0px;
 }
+
+pre.prettyprint {
+    display: block;
+    overflow: auto;
+    width: auto;
+    /* max-height: 600px; */
+    white-space: pre;
+    word-wrap: normal;
+    padding: 10px;   
+}
